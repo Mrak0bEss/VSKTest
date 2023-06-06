@@ -14,7 +14,7 @@ WHERE OrderID = 1;
 
 Я не работал до этого с БД-запросами, но то что я нагуглил говорит мне о том что:\
 1 - Обычный поиск эксепшенов лучше чем Debug.Assert, так как Debug.Assert работает только на дебаге\
-2 - SqlCommand.Parameters для SQL запросов использовать лучше чем strinf.format\
+2 - SqlCommand.Parameters для SQL запросов использовать лучше чем string.format\
 3 - Надо прервать соединение с БД и освободить SqlDataReader с помощью using\
 4 - Надо обработать ошибки связанные с обработкой БД-запросов - catch (Exception ex)\
 ```csharp
